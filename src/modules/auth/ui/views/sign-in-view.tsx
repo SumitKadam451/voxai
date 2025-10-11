@@ -120,7 +120,7 @@ export const SignInView = () => {
                   </Alert>
                 )}
                 <Button disabled={pending} type="submit" className="w-full">
-                  Sign in
+                  Sign In
                 </Button>
                 <div
                   className="after:border-border relative text-center text-sm after:absolute
