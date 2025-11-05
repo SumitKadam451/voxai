@@ -21,7 +21,7 @@ const page = async () => {
     });
   
     if (!session) {
-      redirect("sign-in");
+      redirect("/sign-in");
     }
 
   const queryClient = getQueryClient();
