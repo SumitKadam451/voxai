@@ -10,8 +10,8 @@ export const CallEnded = () => {
             <h6 className="text-lg font-medium">You have ended the Call</h6>
             <p className="text-sm">Summary will appear in a few minutes.</p>
           </div>
-          <Button>
-            <Link href="meetings">Back to meetings</Link>
+          <Button asChild variant="outline">
+            <Link href="/meetings">Back to meetings</Link>
           </Button>
         </div>
       </div>
